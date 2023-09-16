@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color:#3A7CA5;
+}
+
+.container {
+    width: 800px;
+    height:750px;
+    background-color: #D9DCD6;
+    margin:0 auto;
+    margin-top:60px ;
+    position: relative;
+}
+
+.container > div{
+    transform:translateX(-135px);
+}
+
+.house-top-chimney {
+    width: 95px;
+    height: 210px;
+    background-color:#fcebcf;
+    border: 6px solid #4c0303;
+    position: absolute;
+    top: 65px;
+    left: 650px;
+}
+
+.house-top-chimney-crown {
+    height: 45px;
+    width: 130px;
+    background-color :#fe5723;
+    border: 6px solid #4c0303;
+    border-radius: 20px;
+    position: absolute;
+    top: 62.5px;
+    left: 631.5px;
+}
+
+ .house-roof-top-notch {
+    height: 60px;
+    width: 60px;
+    background-color :#fe5723;
+    border-top: 6px solid #4c0303;
+    border-left: 6px solid #4c0303;
+    border-top-left-radius: 22px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 66px;
+    left: 510px;
+    z-index: 2;
+
+} 
+
+.house-roof-left {
+    width: 55px;
+    height: 400px;
+    background-color:#fe5723;
+    border-left: 6px solid #4c0303;
+    border-bottom: 6px solid #4c0303;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    position: absolute;
+    top: 40px;
+    left: 365px;
+    transform: rotate(45deg);
+    z-index: 1;
+
+}
+
+.hrl-right-border{
+    width: 56px;
+    height: 360px;
+    border-right: 6px solid #4c0303;
+    border-bottom: 6px solid #4c0303;
+    border-bottom-right-radius:22px;
+    border-bottom-left-radius: 22px;
+    position: absolute;
+    top: 40px;
+    left: -5px;
+}
+
+.house-roof-right {
+    width: 55px;
+    height: 400px;
+    background-color:#fe5723;
+    border-right: 6px solid #4c0303;
+    border-bottom: 6px solid #4c0303;
+    border-bottom-left-radius:22px;
+    border-bottom-right-radius:22px;
+    position: absolute;
+    top: 40px;
+    left: 660px;
+    transform: rotate(-45deg);
+    z-index: 1;
+
+}
+
+.hrr-left-border{
+    width: 58px;
+    height: 360px;
+    border-left: 6px solid #4c0303;
+    border-bottom: 6px solid #4c0303;
+    border-bottom-right-radius:22px;
+    border-bottom-left-radius: 22px;
+    position: absolute;
+    top: 40px;
+    left: -3px;
+}
+
+.house-roof-bottom-notch {
+    height: 60px;
+    width: 60px;
+    border-top: 6px solid #4c0303;
+    border-left: 6px solid #4c0303;
+    border-top-left-radius: 22px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 139.3px;
+    left: 509.1px;
+    z-index: 2;
+} 
+
+.house-roof-filler {
+    width: 20px;
+    height: 8px;
+    background-color:#fe5723;
+    position: absolute;
+    top: 132px;
+    left: 530px;
+    z-index: 1;
+}
+
+.house-top{
+    width: 10px; 
+    height: 10px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #fcebcf;
+    transform: scale(4.77, 3.5);
+    position: absolute;
+    top: 190px;
+    left:493px;
+    
+    
+}
+
+.house-front{
+    background-color:#fcebcf;
+    width: 475px; 
+    height: 350px;
+    position: absolute;
+    top:300px;
+    left:305px;
+    border-left: 6px solid #4c0303;
+    border-right: 6px solid #4c0303;
+    border-bottom: 6px solid #4c0303;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+.hf-door-topslab{
+    height: 30px;
+    width: 155px;
+    background-color :#fcffff;
+    border: 6px solid #4c0303;
+    border-radius: 20px;
+    position: absolute;
+    top: 110px;
+    left: 155px;
+    z-index: 3;
+}
+
+.hf-door {
+    height: 220px;
+    width: 125px;
+    background-color:#e99648;
+    border: 6px solid #4c0303;
+    position: absolute;
+    top:130px;
+    left: 170px;
+}
+
+.hf-door-knob {
+    height: 25px;
+    width: 25px;
+    background-color:#e99648;
+    border: 6px solid #4c0303;
+    border-radius: 100%;
+    position: absolute;
+    top:90px;
+    left: 5px;
+}
+
+.hf-window-left {
+    width:100px;
+    height:140px;
+    background-color:#7dd6fe;
+    border:6px solid #4c0303;
+    border-top-right-radius:35% ;
+    border-top-left-radius:35% ;
+    position: absolute;
+    top: 100px;
+    left: 35px;
+}
+
+.horizontal-line{
+    height: 130px;
+    width:6px;
+     background-color: #4c0303;
+    position: absolute;
+    left:40px;
+}
+
+.vertical-line{ 
+    height: 90px;
+    width:6px;
+    background-color: #4c0303;
+    position: absolute;
+    top: 20px;
+    left:40px;
+    transform: rotate(90deg);
+}
+
+.hf-window-right {
+    width:100px;
+    height:140px;
+    background-color:#7dd6fe;
+    border:6px solid #4c0303;
+    border-top-right-radius:35% ;
+    border-top-left-radius:35% ;
+    position: absolute;
+    top: 100px;
+    left: 330px;
+}
+
+.hf-middle-window-border{ 
+    height: 150px;
+    width:150px;
+    background-color:#fcffff;
+    border: 6px solid #4c0303;
+    border-radius: 100%;
+    position: absolute;
+    top:-80px;
+    left: 155px;
+    z-index: 4;
+}
+
+.hf-middle-window{
+    height: 110px;
+    width:110px;
+    background-color:#fcb22d;
+    border: 6px solid #4c0303;
+    border-radius: 100%;
+    position: absolute;
+    top:13.5px;
+    left: 13.5px;
+}
+
+.horizontal-line-mw{
+    height: 100px;
+    width:6px;
+    background-color: #4c0303;
+    position: absolute;
+    left:46px;
+}
+
+.vertical-line-mw{
+    height: 100px;
+    width:6px;
+    background-color: #4c0303;
+    position: absolute;
+    left:46px;
+    transform:rotate(90deg);
+}
